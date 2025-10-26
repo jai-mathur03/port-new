@@ -211,19 +211,19 @@ export const portfolioConfig = {
     {
       title: "GitHub",
       description: "Check out my code repositories and open source contributions",
-      url: "https://github.com/jai-mathur03",
+      link: "https://github.com/jai-mathur03",
       icon: "github",
     },
     {
       title: "LinkedIn",
       description: "Connect with me professionally and view my work experience",
-      url: "https://www.linkedin.com/in/jaiaditya-mathur",
+      link: "https://www.linkedin.com/in/jaiaditya-mathur",
       icon: "linkedin",
     },
     {
       title: "Twitter / X",
       description: "Follow me for tech updates and insights",
-      url: "https://x.com/devjai_",
+      link: "https://x.com/devjai_",
       icon: "twitter",
     },
     {
@@ -235,25 +235,25 @@ export const portfolioConfig = {
     {
       title: "Email",
       description: "Get in touch via email for collaborations",
-      url: "mailto:jaiaditya.mathur@gmail.com",
+      link: "mailto:jaiaditya.mathur@gmail.com",
       icon: "mail",
     },
     {
       title: "JobBazaar",
       description: "Visit my employment platform project",
-      url: "https://job-baazar.onrender.com",
+      link: "https://job-baazar.onrender.com",
       icon: "external",
     },
     {
       title: "Finnpal Banking",
       description: "Check out my digital banking application",
-      url: "https://bank-app-gr8k.onrender.com",
+      link: "https://bank-app-gr8k.onrender.com",
       icon: "external",
     },
     {
       title: "Meeting Intel",
       description: "AI-powered meeting summarizer tool",
-      url: "https://audio-intelligence-pro.onrender.com",
+      link: "https://audio-intelligence-pro.onrender.com",
       icon: "external",
     },
   ],
