@@ -27,6 +27,22 @@ export const portfolioConfig = {
         url: "https://github.com/jai-mathur03",
       },
     ],
+    keywords: [
+      "Jaiaditya Mathur",
+      "Full Stack Developer",
+      "MERN Stack Developer",
+      "Software Engineer",
+      "React Developer",
+      "Node.js Developer",
+      "JavaScript Developer",
+      "TypeScript Developer",
+      "Web Development",
+      "Frontend Developer",
+      "Backend Developer",
+      "Portfolio",
+      "Computer Science",
+      "AI Security"
+    ]
   },
 
   // About Information
