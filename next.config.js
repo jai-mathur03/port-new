@@ -1,23 +1,25 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // ✅ Fix for Next 15/16: move experimental key and add Turbopack root
-  serverExternalPackages: ['@react-email/render'],
-
-  // ✅ Prevent Render “workspace root” error
-  turbopack: {
-    root: __dirname,
+  // ✅ Disable Turbopack completely — prevents “workspace root” errors
+  webpack: (config, { dev }) => {
+    if (!dev) {
+      config.optimization.minimize = true;
+    }
+    return config;
   },
 
-  // ✅ Optional future-proofing (you can safely keep or remove)
+  // ✅ Use stable Webpack builder instead of Turbopack
+  experimental: { turbo: false },
+
+  // ✅ External packages (for resend / react-email)
+  serverExternalPackages: ['@react-email/render'],
+
+  // ✅ Image pattern (you had this before)
   images: {
     remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'cdn.jsdelivr.net',
-      },
+      { protocol: 'https', hostname: 'cdn.jsdelivr.net' },
     ],
   },
 };
 
 module.exports = nextConfig;
-
