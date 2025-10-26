@@ -1,27 +1,27 @@
 export const portfolioConfig = {
   // Basic Information
-  name: "Md Taqui Imam",
-  title: "Software Engineer",
+  name: "Jaiaditya Mathur",
+  title: "Software Enginee",
   description: "I am a Passionate Software Developer",
-  location: "Ramgarh cantt, Jharkhand, India",
+  location: "Noida, U.P, India",
 
   // Contact Information
-  email: "taquiimam@example.com", // Replace with actual email if available
+  email: "jaiaditya.mathur@gmail.com", // Replace with actual email if available
 
   // Social Media Links
   socialLinks: {
-    facebook: "https://www.facebook.com/shahina.khatun.1044",
-    twitter: "https://twitter.com/Taquiimam14",
-    linkedin: "https://www.linkedin.com/in/taqui-imam",
-    external: "https://tinyurl.com/MdTaquiImam",
-    github: "https://github.com/taqui-786", // Assuming this is the GitHub link
+    facebook: "https://www.facebook.com/jaiaditya.mathur",
+    twitter: "https://x.com/devjai_",
+    linkedin: "https://www.linkedin.com/in/jaiaditya-mathur",
+    external: "https://example.com/this-page-does-not-exist",
+    github: "https://github.com/jai-mathur03", // Assuming this is the GitHub link
   },
 
   // SEO Information
   seo: {
     ogImage: "https://mdtaquiimam.vercel.app/og-image.png",
     url: "https://mdtaquiimam.vercel.app",
-    twitterHandle: "@Taquiimam14",
+    twitterHandle: "@devjai_",
     keywords: [
       "md",
       "taqui",
@@ -54,20 +54,20 @@ export const portfolioConfig = {
     ],
     authors: [
       {
-        name: "Taqui Imam",
-        url: "https://github.com/taqui-786",
+        name: "Jaiaditya Mathur",
+        url: "https://github.com/jai-mathur03",
       },
     ],
   },
 
   // About Information
   about: {
-    bio: "I am a Full Stack Web Developer from Ramgarh cantt, Jharkhand, India. I'm passionate about crafting web projects and contributing to open-source communities. I specialize in modern JavaScript frameworks and responsive CSS design, focusing on creating pixel-perfect, user-friendly interfaces. With strong attention to detail and efficient delivery, I build seamless web experiences that combine functionality with elegant design.",
+    bio: "I’m a Full Stack Web Developer and Product-minded CSE engineer passionate about building intuitive, high-impact digital solutions. With hands-on experience in MERN, IoT, and workflow automation, I bridge technology and design to craft seamless, user-centric web experiences. My work emphasizes clarity, functionality, and elegant execution—turning ideas into scalable, real-world products.",
     hobbies: [
       "Coding",
-      "Playing Games",
-      "Watching Anime",
-      "Tech Blog Writing",
+      "Public Speaking",
+      "Tennis/PickleBall",
+      "Tech News",
       "Creating Cool Projects",
     ],
     personalInfo: {
@@ -80,8 +80,8 @@ export const portfolioConfig = {
   // Skills and Roles
   skills: {
     roles: [
-      "Freelancer",
-      "Blogger",
+      "Leader",
+      "Public Speaker",
       "Gamer",
       "Creator",
       "Student",
@@ -183,37 +183,40 @@ export const portfolioConfig = {
   // Education Information
   education: [
     {
-      degree: "Bachelor of Computer Application",
-      institution: "Ranchi University Jharkhand",
-      location: "Doranda College Ranchi",
-      period: "July 2023 - 2026",
+      degree: "Bachelor of Technology",
+      institution: "Vellore Institute of Technology",
+      location: "Vellore, Tamil Nadu",
+      period: "Sept 2022 - 2026",
       description:
-        "I am currently Studying Bachelor of Computer Application form Doranda College Ranchi a Goverment College of Ranchi. The program has provided me with a well-rounded education, covering both theoretical foundations and practical applications of computer science.",
+        "I am currently pursuing a Bachelor of Technology in Computer Science and Engineering from VIT Vellore. The program has equipped me with a strong foundation in software development, product design, and data-driven problem solving, blending theoretical depth with practical, real-world applications..",
     },
   ],
 
   // Projects Information
   projects: [
     {
-      title: "WePost- A modern, minimalistic social platform.",
+      title: "JobBazaar – Employment Platform",
       description:
-        "WePost is a modern, minimalistic social platform for sharing posts, like, follow, and engaging in comments etc.",
-      tags: ["Tanstack-Query", "PostgreSQL", "Shadcn Ui", "Nextjs"],
-      link: "https://we-post-dev.vercel.app",
+        "A full-stack web application connecting job seekers and recruiters with real-time search, application tracking, and interactive dashboards. Designed for efficient and transparent hiring processes.",
+      tags: ["React", "Node.js", "Express", "MongoDB"],
+      link: "https://job-baazar.onrender.com",
+      github: "https://github.com/jai-mathur03/job-baazar",
     },
     {
-      title: "Devzone- A community chat app for devs",
+      title: "Finnpal – Digital Banking System",
       description:
-        "DevZone is the ultimate chat platform for developers to connect, collaborate, and code together. Join the conversation and level up your coding journey.",
-      tags: ["Zustand", "Supabase", "Shadcn Ui", "Nextjs"],
-      link: "https://devzone-ti.vercel.app/",
+        "A secure digital banking application enabling fund transfers, JWT-based authentication, and real-time dashboards. Focused on usability, security, and modern fintech design principles.",
+      tags: ["React", "JWT Auth", "Node.js", "Security"],
+      link: "https://bank-app-gr8k.onrender.com",
+      github: "https://github.com/jai-mathur03/bank-app",
     },
     {
-      title: "itZmyLink- One Page many Links",
+      title: "Meeting Intel – AI Meeting Summarizer",
       description:
-        "itZmyLink is a simple platform where user can create a personalized page to showcase all your social media profiles in one place. ",
-      tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/itZmyLink",
+        "An AI-powered web app that records, transcribes, and summarizes meetings using Whisper and Google AI. Automatically extracts action items and key insights to streamline team collaboration.",
+      tags: ["React.js", "JavaScript", "Whisper", "Google AI"],
+      link: "https://audio-intelligence-pro.onrender.com",
+      github: "https://github.com/jai-mathur03/meeting_summ",
     },
     {
       title: "GitEstimate- Github estimate worth generator",
