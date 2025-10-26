@@ -6,7 +6,7 @@ export const portfolioConfig = {
   location: "Noida, Uttar Pradesh, India",
 
   // Contact Information
-  email: "jaiaditya.mathur@gmail.com", // Replace with actual email if available
+  email: "jaiaditya.mathur@gmail.com",
 
   // Social Media Links
   socialLinks: {
@@ -14,7 +14,7 @@ export const portfolioConfig = {
     twitter: "https://x.com/devjai_",
     linkedin: "https://www.linkedin.com/in/jaiaditya-mathur",
     external: "https://example.com/thispagedoesnotexist",
-    github: "https://github.com/jai-mathur03", // Assuming this is the GitHub link
+    github: "https://github.com/jai-mathur03",
   },
 
   // SEO Information
@@ -41,13 +41,13 @@ export const portfolioConfig = {
       "Backend Developer",
       "Portfolio",
       "Computer Science",
-      "AI Security"
-    ]
+      "AI Security",
+    ],
   },
 
   // About Information
   about: {
-    bio: "I’m a Full Stack Web Developer and Product-minded CSE engineer passionate about building intuitive, high-impact digital solutions. With hands-on experience in MERN, IoT, and workflow automation, I bridge technology and design to craft seamless, user-centric web experiences. My work emphasizes clarity, functionality, and elegant execution—turning ideas into scalable, real-world products.",
+    bio: "I'm a Full Stack Web Developer and Product-minded CSE engineer passionate about building intuitive, high-impact digital solutions. With hands-on experience in MERN, IoT, and workflow automation, I bridge technology and design to craft seamless, user-centric web experiences. My work emphasizes clarity, functionality, and elegant execution—turning ideas into scalable, real-world products.",
     hobbies: [
       "Coding",
       "Product & Business",
@@ -180,13 +180,13 @@ export const portfolioConfig = {
 
   // Projects Information
   projects: [
-      {
-        title: "JobBazaar – Employment Platform",
-        description:
-          "A full-stack web application connecting job seekers and recruiters with real-time search, application tracking, and interactive dashboards. Designed for efficient and transparent hiring processes.",
-        tags: ["React", "Node.js", "Express", "MongoDB"],
-        link: "https://job-baazar.onrender.com",
-        github: "https://github.com/jai-mathur03/job-baazar",
+    {
+      title: "JobBazaar – Employment Platform",
+      description:
+        "A full-stack web application connecting job seekers and recruiters with real-time search, application tracking, and interactive dashboards. Designed for efficient and transparent hiring processes.",
+      tags: ["React", "Node.js", "Express", "MongoDB"],
+      link: "https://job-baazar.onrender.com",
+      github: "https://github.com/jai-mathur03/job-baazar",
     },
     {
       title: "Finnpal – Digital Banking System",
@@ -206,8 +206,63 @@ export const portfolioConfig = {
     },
   ],
 
+  // MORE LINKS - THIS WAS MISSING AND CAUSING THE ERROR
+  moreLinks: [
+    {
+      title: "GitHub",
+      description: "Check out my code repositories and open source contributions",
+      url: "https://github.com/jai-mathur03",
+      icon: "github",
+    },
+    {
+      title: "LinkedIn",
+      description: "Connect with me professionally and view my work experience",
+      url: "https://www.linkedin.com/in/jaiaditya-mathur",
+      icon: "linkedin",
+    },
+    {
+      title: "Twitter / X",
+      description: "Follow me for tech updates and insights",
+      url: "https://x.com/devjai_",
+      icon: "twitter",
+    },
+    {
+      title: "Resume",
+      description: "Download my latest resume in PDF format",
+      url: "/JaiadityaMathur Resume.pdf",
+      icon: "file",
+    },
+    {
+      title: "Email",
+      description: "Get in touch via email for collaborations",
+      url: "mailto:jaiaditya.mathur@gmail.com",
+      icon: "mail",
+    },
+    {
+      title: "JobBazaar",
+      description: "Visit my employment platform project",
+      url: "https://job-baazar.onrender.com",
+      icon: "external",
+    },
+    {
+      title: "Finnpal Banking",
+      description: "Check out my digital banking application",
+      url: "https://bank-app-gr8k.onrender.com",
+      icon: "external",
+    },
+    {
+      title: "Meeting Intel",
+      description: "AI-powered meeting summarizer tool",
+      url: "https://audio-intelligence-pro.onrender.com",
+      icon: "external",
+    },
+  ],
+
   // API Keys (should be in .env but referenced here)
   apiKeys: {
-    resendApiKey: "YOUR_RESEND_API_KEY", // This should be loaded from environment variables in a real app
+    resendApiKey: process.env.RESEND_API_KEY || "",
   },
 };
+
+// TypeScript type export for type safety
+export type PortfolioConfig = typeof portfolioConfig;
